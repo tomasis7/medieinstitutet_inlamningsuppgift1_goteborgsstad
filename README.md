@@ -1,2 +1,2 @@
 # medieinstitutet_inlamningsuppgift1_goteborgsstad
- medieinstitutet_inlamningsuppgift1_goteborgsstad
+första inlämningsuppgift från Medieinstitutet
