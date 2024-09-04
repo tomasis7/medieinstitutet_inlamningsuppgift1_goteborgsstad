@@ -1,0 +1,205 @@
+@media only screen and (max-width: 1199px) {
+  body {
+    display: flex relative;
+    flex-direction: column;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  body {
+    display: flex relative;
+    flex-direction: row;
+  }
+}
+
+body {
+  box-sizing: content-box;
+  display: relative;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: white;
+}
+header {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 20px;
+  display: flex relative;
+  flex-direction: row;
+  justify-content: space-between;
+  color: black;
+  background-color: white;
+  /* position:fixed */
+  /* top: 0;
+  left: 0; */
+  width: 100%;
+  height: 140px;
+  border: 1px solid black;
+
+  .right_side_header {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+main {
+  display: flex;
+  justify-content: flex-start;
+}
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  background-color: #262626;
+  color: gray;
+}
+
+img.one {
+  width: 100%;
+  height: 100%;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-style: solid;
+  background-color: white;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-style: solid;
+  background-color: white;
+}
+
+.left_side_section {
+  position: inherit;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-color: #005799;
+  width: 50%;
+}
+
+.right_side_section {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-color: #005799;
+  width: 50%;
+}
+.div_button {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  background-color: white;
+  border-style: solid;
+  width: 100%;
+  border: 1px solid green;
+  padding: 5px;
+  margin: 20px;
+}
+/* end of article */
+
+/* * {
+  box-sizing: border-box;
+} */
+
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(aitjejliten.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  color: white;
+} */
+
+/*  
+ .header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+} */
+
+/* @media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+}
+
+
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  
+  justify-content: flex-end;
+}
+
+
+@media all and (max-width: 1024px) {
+  .navigation {
+    
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .navigation {
+    
+    flex-direction: column;
+  }
+} */
+
+/* nav {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+  
+} */
+
+/* .fit-picture {
+  display: flex;
+  justify-content: flex start;
+  width: 100%;
+} */
