@@ -16,13 +16,16 @@
         }
         div.main {
           display: flex;
-          flex-direction: column;
+          flex-direction: column-reverse;
           width: 100%;
-          
+
         }
 
         div.left div.right {
           width: 100%;
+        }
+        img.right{
+          width:100%;
         }
       }
       @media only screen and (min-width: 600px) {
@@ -63,7 +66,7 @@
         justify-content: space-between;
         align-items: center;
         margin:0 0 0 12px;
-        
+
 
         padding: 0px;
       }
@@ -122,16 +125,11 @@
         font-family: Arial, Helvetica, sans-serif;
       }
       img.right {
-        background-size: cover;
-        background-attachment: fixed;
-        width: auto;
-        height: 100%;
-        position: 80% 80%;
-        
+        object-fit:cover;
       }
       div.left_container {
         box-sizing: border-box;
-        padding:100px;
+        padding:25px;
         font-family: Arial, Helvetica, sans-serif;
         display:flex;
         flex-direction: row;
@@ -139,7 +137,7 @@
         align-content: flex-start;
         flex-wrap:wrap;
       }
-      .left {        
+      .left {
         text-align:center;
         font-size: 2em;
         font-weight:900;
@@ -148,8 +146,9 @@
         font-size:1rem;
         background-color:white;
         padding:15px;
+        margin:10px;
        }
-      
+
       div.bottom {
       display: flex;
       background-color: #262626;
@@ -178,18 +177,18 @@
       </div>
     </div>
 
-    <div class="main">      
+    <div class="main">
       <div class="left">
         <div class="left_container"
         <h1 class="left">Välkommen till Göteborgs Stad</h1>
-        
+
           <h5><a href="default.asp">Kalendarium</a></h5>
           <h5><a href="news.asp">Lediga jobb</a></h5>
           <h5><a href="contact.asp">Så kan du påverka och vara delaktig</a></h5>
           <h5><a href="about.asp">Kontakta oss</a></h5>
           <h5><a href="about.asp">Mina sidor</a></h5>
           <h5><a href="about.asp">Nättidningen Vårt Göteborg</a></h5>
-        
+
       </div>
     </div>
       <div class="right">
@@ -197,7 +196,7 @@
           class="right"
           src="87c424f2-a335-40e8-82af-ede362364c74.jpg"
           alt="Brunnparken"
-          
+
         />
       </div>
     </div>
