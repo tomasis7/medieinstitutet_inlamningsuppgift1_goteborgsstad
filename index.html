@@ -9,24 +9,25 @@
     />
 
     <style>
-      @media only screen and (max-width: 1199px) {
+      @media only screen and (max-width: 599px) {
         body {
-          /* display: flex relative; */
+          display: flex relative;
           flex-direction: column;
         }
         div.main {
           display: flex;
           flex-direction: column;
           width: 100%;
+          
         }
 
         div.left div.right {
           width: 100%;
         }
       }
-      @media only screen and (min-width: 1200px) {
+      @media only screen and (min-width: 600px) {
         body {
-          /* display: flex relative; */
+          display: flex relative;
           flex-direction: row;
         }
         div.main {
@@ -34,6 +35,7 @@
             flex-direction: row;
             justify-content: space-around;
             width: 100%;
+            height:800px;
   }
 
         div.left {
@@ -47,7 +49,7 @@
 
       body {
         box-sizing: content-box;
-        /* display: relative; */
+        display: relative;
         justify-content: flex-start;
         margin: 0;
         padding: 0;
@@ -60,7 +62,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-left: 12px;
+        margin:0 0 0 12px;
+        
 
         padding: 0px;
       }
@@ -82,6 +85,8 @@
       div.right {
         box-sizing: border-box;
         border: 1px solid #0fa414;
+        padding: 0;
+        margin:0;
       }
       div.bottom {
         border: 1px solid #ad4b21;
@@ -91,6 +96,8 @@
         display: flex;
         flex-direction: row;
         border: 1px solid lightgray;
+        margin:0;
+        padding:0;
       }
       div.search {
         display: flex;
@@ -117,13 +124,14 @@
       img.right {
         background-size: cover;
         background-attachment: fixed;
-        width: 120%;
-        height: auto;
-        background-position: 40% 0%;
+        width: auto;
+        height: 100%;
+        position: 80% 80%;
+        
       }
       div.left_container {
         box-sizing: border-box;
-        padding:40px;
+        padding:100px;
         font-family: Arial, Helvetica, sans-serif;
         display:flex;
         flex-direction: row;
@@ -131,10 +139,16 @@
         align-content: flex-start;
         flex-wrap:wrap;
       }
-      h1.rubrik_left {        
+      .left {        
+        text-align:center;
         font-size: 2em;
         font-weight:900;
       }
+       h5 {
+        font-size:1rem;
+        background-color:white;
+        padding:15px;
+       }
       
       div.bottom {
       display: flex;
@@ -156,10 +170,10 @@
       <div class="icon_container">
         <div class="search">
           <i class="bi bi-search" style="font-size: 1.4rem; color: black"></i
-          >Sök
+          ><span style="font-weight: 100;">Sök</span>
         </div>
         <div class="menu">
-          <i class="bi bi-list" style="font-size: 1.4rem; color: black"></i>Menu
+          <i class="bi bi-list" style="font-size: 1.4rem; color: black"></i><span style="font-weight: 100;">Menu</span>
         </div>
       </div>
     </div>
@@ -167,14 +181,14 @@
     <div class="main">      
       <div class="left">
         <div class="left_container"
-        <h1 class="rubrik_left">Välkommen till Göteborgs Stad</h1>
+        <h1 class="left">Välkommen till Göteborgs Stad</h1>
         
-          <a href="default.asp">Kalendarium</a>
-          <a href="news.asp">Lediga jobb</a>
-          <a href="contact.asp">Så kan du påverka och vara delaktig</a>
-          <a href="about.asp">Kontakta oss</a>
-          <a href="about.asp">Mina sidor</a>
-          <a href="about.asp">Nättidningen Vårt Göteborg</a>
+          <h5><a href="default.asp">Kalendarium</a></h5>
+          <h5><a href="news.asp">Lediga jobb</a></h5>
+          <h5><a href="contact.asp">Så kan du påverka och vara delaktig</a></h5>
+          <h5><a href="about.asp">Kontakta oss</a></h5>
+          <h5><a href="about.asp">Mina sidor</a></h5>
+          <h5><a href="about.asp">Nättidningen Vårt Göteborg</a></h5>
         
       </div>
     </div>
@@ -183,8 +197,7 @@
           class="right"
           src="87c424f2-a335-40e8-82af-ede362364c74.jpg"
           alt="Brunnparken"
-          width="1400"
-          height="788"
+          
         />
       </div>
     </div>
